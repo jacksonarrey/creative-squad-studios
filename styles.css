@@ -608,7 +608,7 @@ form input{
         background: rgb(230, 78, 78);
         width: 50vh;
         margin: 5PX;
-        margin-left: 10%;
+        margin-left: 5%;
     
     }
     .vision p{
@@ -635,12 +635,14 @@ form input{
         display: block;
         justify-content: center;
         margin-bottom: 20%;
+        margin-right: 10%;
     }
     .video-control .video{
         display:block;
         flex-wrap: nowrap;
         align-items: center;
         align-content: space-between;
+        margin-right:6% ;
     
     }
     footer{
