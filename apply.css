@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,50,0.8),rgba(24, 20, 65, 0.8)), url(images/PIC-10.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    width: 95%;
+    max-width: 450PX;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50PX 60PX 70PX;
+    text-align: center;
+    max-height:600px ;
+    height: 80%;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -18px;
+    left: 40%;
+    transform: translate(-50%);
+}
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+
+
+}
+.btn-field button{
+    flex-basis: 60px;
+    background: #f56302;
+    color: #fff;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+
+}
+.input-group{
+    height: 280px;
+
+}
+.btn-field button.Disable {
+background:#eaeaea;
+color:#555;
+
+
+}
+.Home{
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    border-radius: 4px;
+    background: #f87706;
+    margin-left: 1000px;
+}
+.Contact{
+    padding: 10px 14px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    border-radius: 4px;
+    background: #f87706;
+    margin-right: 100px;
+}
+@media screen and (max-width: 574px){
+    .Contact{
+        padding: 8px 5px;
+        text-transform: uppercase;
+        font-weight: 500px;
+        border-radius: 4px;
+        background: #f87706;
+        margin-right: 250px;
+    }
+    .Home{
+        padding: 8px 14px;
+        text-transform: uppercase;
+        font-weight: 500px;
+        border-radius: 4px;
+        background: #f87706;
+        margin-left: 250px;
+    }
+}
+header{
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 100%;
+    z-index: 200;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
