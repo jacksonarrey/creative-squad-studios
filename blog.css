@@ -6,7 +6,11 @@
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
     box-sizing: border-box;
+    
 
+}
+body{
+    overflow-x: hidden;
 }
 
 :root{
