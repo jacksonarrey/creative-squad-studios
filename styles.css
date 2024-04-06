@@ -732,4 +732,8 @@ form input {
     overflow: hidden;
     border-radius: 1rem;
   }
+  .youtube iframe {
+    max-width: 90% !important;
+    margin: 5% auto;
+  }
 }
