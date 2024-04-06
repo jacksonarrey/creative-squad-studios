@@ -102,9 +102,16 @@
 .main-titles ul {
   display: block;
   justify-content: center;
-  margin-left: 45%;
+  margin-left: 30%;
+  margin-top: 2%;
   font-size: x-large;
   font-stretch: expanded;
+  background-color: #3498db;
+  max-width: 20%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 .watch span {
   background: #000;
@@ -566,16 +573,15 @@ form input {
   .vision {
     padding: 30px;
     background: rgb(230, 78, 78);
-    width: 50vh;
-    margin: 5px;
-    margin-left: 5%;
+    max-width: 95% !important;
+    margin: 5% auto;
   }
   .vision p {
     font-size: small;
-    display: inline;
+    display: inline-block;
   }
   .vision h4 {
-    display: flex;
+    display: -webkit-inline-box;
     justify-content: center;
     background: #000;
     width: 90px;
@@ -734,6 +740,16 @@ form input {
   }
   .youtube iframe {
     max-width: 90% !important;
-    margin: 5% auto;
+    margin: 2% auto;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  .main-titles ul {
+    max-width: 40%;
+  }
+  .main-titles ul li {
+    text-decoration: underline;
+    color: #0b0a0a;
+    display: inline-table;
   }
 }
