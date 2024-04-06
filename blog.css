@@ -64,6 +64,11 @@ header{
     margin-right: 100px;
 }
 @media screen and (max-width: 574px){
+    .body{
+        overflow-x: hidden;
+    }
+    
+    
     .Contact{
         padding: 8px 5px;
         text-transform: uppercase;
