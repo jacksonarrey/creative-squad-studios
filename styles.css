@@ -740,9 +740,10 @@ form input {
   }
   .youtube iframe {
     max-width: 90% !important;
-    margin: 2% auto;
+    margin: 2%;
     overflow: hidden;
     border-radius: 1rem;
+    margin-left: 7%;
   }
   .main-titles ul {
     max-width: 40%;
