@@ -288,7 +288,8 @@ span {
   border-radius: 1rem;
 }
 .video-control .video .min-video iframe {
-  max-width: 90% !important;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   outline: none;
   border: none;
@@ -315,8 +316,12 @@ span {
   display: flex;
   justify-content: center;
   padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
   text-align: justify;
   line-height: 1.5;
+  background-color: #8a8888;
 }
 .cover .main-title h4 {
   display: flex;
@@ -709,5 +714,22 @@ form input {
     margin-left: 30%;
     font-size: x-large;
     font-stretch: expanded;
+  }
+  .video-control .video .min-video {
+    max-width: 90% !important;
+    margin: 20px auto;
+    box-shadow: 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  .POSTERS .images {
+    max-width: 90% !important;
+    margin: 20px auto;
+  }
+  .POSTERS .images img {
+    max-width: 95% !important;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 1rem;
   }
 }
