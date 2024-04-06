@@ -40,10 +40,6 @@ html {
   border: 1px solid transparent;
   padding: 7px 10 px;
   border-radius: 3px;
-  -webkit-border-radius: ;
-  -moz-border-radius: ;
-  -ms-border-radius: ;
-  -o-border-radius: ;
 }
 .nav ul li a:hover {
   border: 1px solid rgb(24, 254, 8);
@@ -73,10 +69,6 @@ html {
   overflow: hidden;
   border-radius: 1rem;
   text-decoration: none;
-  -webkit-border-radius: ;
-  -moz-border-radius: ;
-  -ms-border-radius: ;
-  -o-border-radius: ;
 }
 .subscribe {
   display: flex;
