@@ -692,6 +692,7 @@ form input {
     display: block;
     justify-content: center;
     gap: 1.5rem;
+    margin-right: 4%;
   }
   .youtube iframe {
     width: 25rem;
@@ -710,9 +711,10 @@ form input {
     justify-content: center;
   }
   .main-titles h5 {
-    display: flex;
-    justify-content: center;
-    margin-left: 20px;
+    justify-content: flex-start;
+    margin-right: 4px;
+    text-align: inherit;
+
   }
   .main-titles ul {
     display: block;
