@@ -755,4 +755,10 @@ form input {
     color: #0b0a0a;
     display: inline-table;
   }
+  .vision_control{
+    margin-left: 10%;
+  }
+  .video{
+    margin-left: 5%;
+  }
 }
